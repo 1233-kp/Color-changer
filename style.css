@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.buttons-container {
+  background-color: transparent;
+  color: black;
+  height: 100px;
+  width: 100%; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 40px; 
+  border-radius: 20%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#grey {
+  background-color: grey;
+  color: black;
+}
+
+#white {
+  background-color: white;
+  color: black;
+}
+
+#yellow {
+  background-color: yellow;
+  color: black;
+}
+
+#orange {
+  background-color: orange;
+  color: white; 
+}
+
+
